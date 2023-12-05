@@ -23,7 +23,7 @@ const Chatroom = () => {
 
     useEffect(()=>{
 
-        const socket = io("http://localhost:8000/" );
+        const socket = io("https://chat-room-pvjh.onrender.com/" );
 
         setSocket(socket);
 
